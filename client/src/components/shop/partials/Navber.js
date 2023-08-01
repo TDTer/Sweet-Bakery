@@ -73,15 +73,15 @@ const Navber = (props) => {
               style={{ letterSpacing: "0.10rem" }}
               className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
             >
-              Hayroo
+              Sweet Bakery
             </span>
           </div>
           <div
             onClick={(e) => history.push("/")}
             style={{ letterSpacing: "0.70rem" }}
-            className="hidden lg:block flex items-left col-span-1 text-center text-gray-800 font-bold tracking-widest uppercase text-2xl cursor-pointer"
+            className="hidden lg:block flex items-left col-span-1 text-center text-gray-800 font-bold tracking-widest uppercase text-2xl cursor-pointer "
           >
-            Hayroo
+            Sweet Bakery
           </div>
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
@@ -91,11 +91,10 @@ const Navber = (props) => {
               title="Wishlist"
             >
               <svg
-                className={`${
-                  location.pathname === "/wish-list"
-                    ? "fill-current text-gray-800"
-                    : ""
-                } w-8 h-8 text-gray-600 cursor-pointer`}
+                className={`${location.pathname === "/wish-list"
+                  ? "fill-current text-gray-800"
+                  : ""
+                  } w-8 h-8 text-gray-600 cursor-pointer`}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

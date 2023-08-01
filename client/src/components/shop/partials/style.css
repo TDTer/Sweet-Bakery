@@ -8,3 +8,49 @@
   flex-direction: column;
   transition: all 1s;
 }
+
+/* CSS cho footer */
+footer {
+  background: #303031;
+  color: #87898A;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-info,
+.gg-maps-container {
+  flex: 1;
+  text-align: left;
+}
+
+.gg-maps-container {
+  text-align: right;
+}
+
+.footer-info h3,
+.gg-maps-container h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-info p,
+.gg-maps-container p {
+  margin-bottom: 5px;
+}
+
+.footer-info a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-info a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+}
+
+.gg-maps-container iframe {
+  width: 100%;
+  height: 200px;
+}
